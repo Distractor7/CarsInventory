@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.inventoryDisplay {
+  border: solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid #bbb;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.submitButtons {
+  margin-bottom: 5px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.inventoryDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-details {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.car-details > span {
+  margin-right: 8px;
+}
