@@ -1,7 +1,6 @@
 //Bekiw are the imports for react, axios, json and hooks.
 import React from "react";
 import { useState } from "react";
-import App from "../App";
 import axios from "axios";
 
 //CarsInterface component.

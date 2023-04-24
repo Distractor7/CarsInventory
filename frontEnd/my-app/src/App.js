@@ -1,6 +1,4 @@
 import "./App.css";
-import axios from "axios";
-
 import CarsInterface from "./components/carsInterface";
 
 function App() {
